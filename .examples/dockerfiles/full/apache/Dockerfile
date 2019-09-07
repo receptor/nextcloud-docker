@@ -54,7 +54,7 @@ RUN mkdir -p \
     /var/run/supervisord \
 ;
 
-COPY supervisord.conf /etc/supervisor/supervisord.conf
+COPY ./supervisord.conf /etc/supervisor/supervisord.conf
 
 ENV NEXTCLOUD_UPDATE=1
 
